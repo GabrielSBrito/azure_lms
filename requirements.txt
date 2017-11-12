@@ -1,4 +1,2 @@
-django<1.10
-
 django-pyodbc-azure==1.11.0.0
 pytz==2017.3
