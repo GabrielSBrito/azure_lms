@@ -5,7 +5,6 @@ Command-line utility for administrative tasks.
 
 import os
 import sys
-import pyodbc
 
 if __name__ == "__main__":
     os.environ.setdefault(
