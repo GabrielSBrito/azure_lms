@@ -18,18 +18,13 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'bd_lms',
-        'USER': 'yansantos',
-        'PASSWORD': 'demonhunter@55',
-        'HOST': 'bdsqllms.database.windows.net',
-        'PORT': '',
-		
-		'OPTIONS': {
-            'driver': 'ODBC Driver 13 for SQL Server',
-        },
-        
-    },
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'lm_django',
+        'USER': 'root',
+        'PASSWORD': 'demonhunter55',
+        'HOST': 'lhpmonkey.ddns.net',   # Or an IP Address that your DB is hosted on
+        'PORT': '5050',
+    }
 }
 
 LOGIN_URL = '/login'
@@ -41,11 +36,11 @@ LOGIN_URL = '/login'
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'America/Sao_Paulo'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 SITE_ID = 1
 
