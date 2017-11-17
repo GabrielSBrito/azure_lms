@@ -19,9 +19,9 @@ MANAGERS = ADMINS
  DATABASES = {
      'default': {
          'ENGINE': 'mysql_pymysql',
-         'HOST': '',
-         'USER': '',
-         'PASSWORD': '',
+         'HOST': 'lhpmonkey.ddns.net',
+         'USER': 'yan.santos',
+         'PASSWORD': 'demonhunter55',
      }
  }
 
