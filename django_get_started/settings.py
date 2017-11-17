@@ -16,13 +16,13 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
- DATABASES = {
-     'default': {
-         'ENGINE': 'mysql_pymysql',
-         'HOST': 'lhpmonkey.ddns.net',
-         'USER': 'yan.santos',
-         'PASSWORD': 'demonhunter55',
-     }
+DATABASES = {
+	'default': {
+    'ENGINE': 'mysql_pymysql',
+    'HOST': 'lhpmonkey.ddns.net',
+    'USER': 'yan.santos',
+    'PASSWORD': 'demonhunter55',
+    }
  }
 
 LOGIN_URL = '/login'
