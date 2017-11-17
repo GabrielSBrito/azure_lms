@@ -16,16 +16,14 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'lm_django',
-        'USER': 'root',
-        'PASSWORD': 'demonhunter55',
-        'HOST': 'lhpmonkey.ddns.net',   # Or an IP Address that your DB is hosted on
-        'PORT': '5050',
-    }
-}
+ DATABASES = {
+     'default': {
+         'ENGINE': 'mysql_pymysql',
+         'HOST': '',
+         'USER': '',
+         'PASSWORD': '',
+     }
+ }
 
 LOGIN_URL = '/login'
 
